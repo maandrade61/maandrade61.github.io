@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CMKit Showcase</title>
+    <meta name="description" content="Case study page of Project" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/png/thanh-vu.png"
+              alt="Thanh Vu Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Tyler Vu</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="project-cs-hero">
+      <div class="project-cs-hero__content">
+        <h1 class="heading-primary">Coding Mentor Kit</h1>
+        <div class="project-cs-hero__info">
+        </div>
+        <div class="project-cs-hero__cta">
+          <a href="http://codingmentorkit.com/" class="btn btn--bg" target="_blank">Link To Website</a>
+        </div>
+      </div>
+    </section>
+
+    <div style="text-align: center; margin-top: 30px">
+      <h1 style="font-size: 48px; position: relative; display: inline-block;">
+        CMKit - Learning Management System
+        <span style="position: absolute; bottom: -10px; left: 50%; transform: translateX(-50%); display: block; width: 100%; height: 2px; background-color: rgba(0, 0, 0, 0.2);"></span>
+      </h1>
+    </div>
+
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+          <div class="project-details__showcase-img-cont">
+            <img
+              src="./assets/jpeg/cmkit-mockup.jpeg"
+              alt="Project Image"
+              class="project-details__showcase-img"
+            />
+          </div>
+          <div>
+            <div class="my-section">
+              <p align="center" style="font-size: 24px;">
+                Makes it easy to submit, grade, and analyze assignments online, while securely storing digital class materials.
+                <br>
+                <a href="http://codingmentorkit.com"><strong>Explore CMKit »</strong></a>
+                <br>
+                <br>
+                <a href="https://github.com/thanhvu0895/CMKit-Learning-Management-System/issues/new" style="color: blue; text-decoration: none;"><strong>Report bug</strong></a>
+                ·
+                <a href="https://github.com/thanhvu0895/CMKit-Learning-Management-System/issues/new?assignees=&labels=feature+request&template=feature_request.md&title=" style="color: blue; text-decoration: none;"><strong>Request feature</strong></a>
+              </p>
+            </div>
+          </div>
+
+          <div style="margin-top: 4em;">
+            <h1 style="font-size: 5em; position: relative; margin-bottom: 1em;">
+                I. Getting Started
+                <span style="position: absolute; bottom: -5px; left: 0; height: 8px; width: 100%; border-bottom: 2px solid rgba(0, 0, 0, 0.3); opacity: 0.7;"></span>
+            </h1>
+
+
+            <h3 style="font-size: 2.5em; margin-bottom: 0.5em;">1. Signing up for an account</h3>
+
+            <p style="font-size: 2em; margin-bottom: 2em;">
+                Professors often have a spreadsheet of student emails, like
+                <a href="https://docs.google.com/spreadsheets/d/18tLlYL6Ftcdbk3ESXvmq6mcj5V_AyjW4V-mDUHLGiyk/edit#gid=0" style="color: #4d94ff; text-decoration: none;">this one</a>.
+                They can use CMKit to add students from the list to a class.
+            </p>
+
+            <img src="https://user-images.githubusercontent.com/75138396/221392328-bc2f81d1-e07e-46e8-8be9-3f3e8ba350f8.gif" alt="add-students-cropped" width="900" style="max-width: 100%; height: auto; display: block; margin: 0 auto;" onclick="openModal('https://user-images.githubusercontent.com/75138396/221392328-bc2f81d1-e07e-46e8-8be9-3f3e8ba350f8.gif')">
+
+
+
+
+
+<h3 style="font-size: 2.5em; margin-bottom: 0.5em;">2. Navigating the interface</h3>
+
+<p style="font-size: 2em; margin-bottom: 2em;">
+  Students can view the courses they are enrolled in and access course materials, view assignments and grades:
+</p>
+
+<img src="https://user-images.githubusercontent.com/75138396/222875217-4e229109-beb5-4f21-bc47-ec94f835ad22.png" style="max-width: 100%;">
+
+<h1 style="font-size: 5em; position: relative; margin-bottom: 1em;">
+  II. Accessing Courses
+  <span style="position: absolute; bottom: -5px; left: 0; height: 8px; width: 100%; border-bottom: 2px solid rgba(0, 0, 0, 0.3); opacity: 0.7;"></span>
+</h1>
+
+<p style="font-size: 2em; margin-bottom: 0.5em;">
+ <strong>- Find a course</strong>:
+</p>
+
+<img src="https://user-images.githubusercontent.com/75138396/221346966-7ed1d63f-cb29-4d0c-a89f-74abc874ef28.png" style="max-width: 100%;">
+
+<p style="font-size: 2em; margin-bottom: 0.5em;">
+  <strong>- Enrolling in a course</strong>:
+</p>
+
+<p style="font-size: 2em; margin-bottom: 0.5em;">
+Students will be enrolled to a course after they accept the invitation link sent to their account:
+</p>
+
+<img src="https://user-images.githubusercontent.com/75138396/221348527-94cedb18-2320-4e43-a919-e0dc08e37510.png" style="max-width: 100%;">
+
+<p style="font-size: 2em; margin-bottom: 0.5em;">
+After clinking on the invitation link, students will then enter their account information:
+</p>
+
+<img src="https://user-images.githubusercontent.com/75138396/221348557-2e9be32d-572f-4b5a-a7ce-11b7942e77ce.png" style="max-width: 100%;">
+
+<p style="font-size: 2em; margin-bottom: 0.5em;">
+  <strong>- Accessing course materials:</strong> Instructors can add materials to a course/class, which will be visible to all enrolled students:
+</p>
+
+<img src="https://user-images.githubusercontent.com/75138396/221347258-79db8124-12fe-4639-a271-faf38eaa1b0e.png" style="max-width: 100%;">
+<img src="https://user-images.githubusercontent.com/75138396/221347258-79db8124-12fe-4639-a271-faf38eaa1b0e.png" style="max-width: 100%;">
+
+
+<h1 style="font-size: 5em; position: relative; margin-bottom: 1em;">
+  III. Interacting with Course Content
+  <span style="position: absolute; bottom: -5px; left: 0; height: 8px; width: 100%; border-bottom: 2px solid rgba(0, 0, 0, 0.3); opacity: 0.7;"></span>
+</h1>
+
+<p style="font-size: 2em; margin-bottom: 0.5em;">
+  Students can view materials and assignments added to a course/class and can complete assignments, which are then graded by the professor or the grader.
+</p>
+
+<p style="font-size: 2em; margin-bottom: 0.5em;">
+  <strong>- Viewing course content</strong>:
+</p>
+
+<img src="https://user-images.githubusercontent.com/75138396/221347440-835e823d-82cb-4605-8f8c-23cfe6a94dba.png" style="max-width: 100%;">
+
+<p style="font-size: 2em; margin-bottom: 0.5em;">
+The shared materials look like this to a student:
+</p>
+
+<img src="https://user-images.githubusercontent.com/75138396/221347154-bd7ff856-672a-404a-9193-ea5651e7dc51.png" style="max-width: 100%;">
+
+<p style="font-size: 2em; margin-bottom: 0.5em;">
+  <strong>- Assigning and Completing assignments</strong>:
+</p>
+
+<img src="https://user-images.githubusercontent.com/75138396/222881722-099e6ff0-1fab-48e3-a8aa-e640f2b3f468.gif" alt="new-gif" width="900" style="max-width: 100%; height: auto; display: block; margin: 0 auto;" onclick="openModal('https://user-images.githubusercontent.com/75138396/222881722-099e6ff0-1fab-48e3-a8aa-e640f2b3f468.gif');">
+
+
+
+<h1 style="font-size: 5em; position: relative; margin-bottom: 1em;">
+  IV. Participating in group assignments
+  <span style="position: absolute; bottom: -5px; left: 0; height: 8px; width: 100%; border-bottom: 2px solid rgba(0, 0, 0, 0.3); opacity: 0.7;"></span>
+</h1>
+
+<p style="font-size: 2em; margin-bottom: 0.5em;">
+  Professor assigning collaborative assignment which allows more than 1 contributor:
+</p>
+
+<img src="https://user-images.githubusercontent.com/75138396/221622838-f3c76c02-4e0b-4f1b-b39f-ee10a9bb8d6e.gif" alt="gif3" width="900" style="max-width: 100%;" onclick="openModal('https://user-images.githubusercontent.com/75138396/221622838-f3c76c02-4e0b-4f1b-b39f-ee10a9bb8d6e.gif');">
+
+
+
+<p style="font-size: 2em; margin-bottom: 0.5em;">
+  Students install latest version of <a href="https://git-scm.com/download/win">Git For Windows</a>, then run <a href="https://github.com/thanhvu0895/CMKit-Java-Learning-Management-System/files/10841670/Setup.Scripts.zip">Setup Scripts.zip</a>.
+</p>
+
+
+<img src="https://user-images.githubusercontent.com/75138396/221642502-276cecaf-109e-4f62-9250-bb1328ae0fc1.gif" alt="gif4" width="900" style="max-width: 100%;" onclick="openModal('https://user-images.githubusercontent.com/75138396/221642502-276cecaf-109e-4f62-9250-bb1328ae0fc1.gif');">
+
+<p style="font-size: 2em; margin-bottom: 0.5em;">
+  After setting up, students can work collaboratively by inviting other students to collaborate and making some commits:
+</p>
+
+<img src="https://user-images.githubusercontent.com/75138396/221660301-0862c00f-d238-45b8-878b-30fcd20099d3.gif" alt="gif5" width="900" style="max-width: 100%;" onclick="openModal('https://user-images.githubusercontent.com/75138396/221660301-0862c00f-d238-45b8-878b-30fcd20099d3.gif');">
+
+<p style="font-size: 2em; margin-bottom: 0.5em;">
+Other students accepting invitation:
+</p>
+
+<img src="https://user-images.githubusercontent.com/75138396/222424644-d6519e2b-998e-41a1-bacd-3c32e5c216ab.gif" alt="gif6" width="900" style="max-width: 100%;" onclick="openModal('https://user-images.githubusercontent.com/75138396/222424644-d6519e2b-998e-41a1-bacd-3c32e5c216ab.gif');">
+
+<p style="font-size: 2em; margin-bottom: 0.5em;">
+Making contribution to the assignment:
+</p>
+
+<img src="https://user-images.githubusercontent.com/75138396/222432741-60498b08-9e04-4235-acfa-a9bcac69e004.gif" alt="making-contribution" width="900" style="max-width: 100%;" onclick="openModal('https://user-images.githubusercontent.com/75138396/222432741-60498b08-9e04-4235-acfa-a9bcac69e004.gif');">
+
+<h1 style="font-size: 5em; position: relative; margin-bottom: 1em;">
+  V. Tracking Progress
+  <span style="position: absolute; bottom: -5px; left: 0; height: 8px; width: 100%; border-bottom: 2px solid rgba(0, 0, 0, 0.3); opacity: 0.7;"></span>
+</h1>
+
+<p style="font-size: 2em; margin-bottom: 0.5em;">
+  <strong>Checking Attendance</strong>:
+</p>
+
+
+<img src="https://user-images.githubusercontent.com/75138396/221346807-30dc16cf-6f08-4caa-b8c5-af9a906a7ca2.png" alt="checking-attendance" style="max-width: 100%;">
+
+<p style="font-size: 2em; margin-bottom: 0.5em;">
+  <strong>Checking Overall Course progress</strong>:
+</p>
+
+<img src="https://user-images.githubusercontent.com/75138396/221664811-dd82dac6-8c23-4fe2-a027-efc2dc023b3a.png" alt="checking-course-progress-1" style="max-width: 100%;">
+
+<img src="https://user-images.githubusercontent.com/75138396/222882403-b3bbe5fd-7642-4d5d-859b-9d70bd3175cf.png" alt="checking-course-progress-2" style="max-width: 100%;">
+
+<img src="https://user-images.githubusercontent.com/75138396/221663960-59719a7e-f852-48d4-bc94-b32b3f1670de.jpg" alt="checking-course-progress-3" style="max-width: 100%;">
+
+<p style="font-size: 2em; margin-bottom: 0.5em;">
+  <strong>Checking grades and feedback</strong>:
+</p>
+
+<p style="font-size: 2em; margin-bottom: 0.5em;">
+Students can view feedback for a certain assignment by clicking on that assignment while viewing the class
+</p>
+
+<img src="https://user-images.githubusercontent.com/75138396/221392232-3f88e719-24e1-4adf-aa4b-58cea890fe32.gif" alt="making-contribution" width="900" style="max-width: 100%;" onclick="openModal('https://user-images.githubusercontent.com/75138396/222432741-60498b08-9e04-4235-acfa-a9bcac69e004.gif');">
+
+
+<p style="font-size: 2em; margin-bottom: 0.5em;">
+<strong>- Reviewing course history</strong>: Students can access material and assignment submissions from previous courses by navigating to Past Classes Section from the home page
+</p>
+
+<img src="https://user-images.githubusercontent.com/75138396/222487606-b0064018-1951-46af-81da-f351d6551c0d.gif" alt="view-past-courses" width="900" style="max-width: 100%;" onclick="openModal('https://user-images.githubusercontent.com/75138396/222487606-b0064018-1951-46af-81da-f351d6551c0d.gif');">
+
+<h1 style="font-size: 5em; position: relative; margin-bottom: 1em;">
+  VI. Future Ideas and Key Takeaways
+  <span style="position: absolute; bottom: -5px; left: 0; height: 8px; width: 100%; border-bottom: 2px solid rgba(0, 0, 0, 0.3); opacity: 0.7;"></span>
+</h1>
+
+<p style="font-size: 2em; margin-bottom: 0.5em;">
+  <strong>Future Ideas</strong>:
+</p>
+
+<p style="font-size: 2em; margin-bottom: 0.5em;">
+  <a src="https://github.com/thanhvu0895/CMKit-Java-Learning-Management-System/files/10848853/github.cli.zip">GitHub CLI using Github API</a> for professors/graders to view student’s assignments without having to download files:
+</p>
+
+<img src="https://user-images.githubusercontent.com/75138396/222483989-7aa4073e-b468-45c9-949d-f2640f1fbfb8.gif" alt="github-cli" width="900" style="max-width: 100%;" onclick="openModal('https://user-images.githubusercontent.com/75138396/222483989-7aa4073e-b468-45c9-949d-f2640f1fbfb8.gif');">
+
+<p style="font-size: 2em; margin-bottom: 0.5em;margin-top: 1em;">
+<strong>Key Takeaways:</strong>
+</p>
+
+<ul style="font-size: 2em; margin-bottom: 0.5em;">
+  <li>&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;   CMKit provides a platform for students to collaborate on code projects with easy access to feedback and support.</li>
+  <li>&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;   The Git environment provides an opportunity for students to develop skills in code management and collaborative coding practices, which are highly valued in industry settings.</li>
+  <li>&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;   By providing a collaborative environment for students to practice coding skills, instructors can prepare students for success in future careers.</li>
+</ul>
+
+
+</div>
+            <div class="project-details__tools-used" style="margin-top: 8em !important;">
+              <h3 class="project-details__content-title">Tools Used</h3>
+              <div class="skills">
+                <div class="skills__skill">HTML</div>
+                <div class="skills__skill">CSS</div>
+                <div class="skills__skill">JavaScript</div>
+                <div class="skills__skill">JSP</div>
+                <div class="skills__skill">Gitosis</div>
+                <div class="skills__skill">Custom Tags</div>
+                <div class="skills__skill">Servlet</div>
+                <div class="skills__skill">Amazon SES</div>
+                <div class="skills__skill">Log4j</div>
+                <div class="skills__skill">MySQL</div>
+              </div>
+            </div>
+
+            <div class="project-details__links">
+              <h3 class="project-details__content-title">See Live</h3>
+              <a
+                href="https://github.com/thanhvu0895/CMKit-Learning-Management-System/"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Github Documentation</a
+              >
+              <a
+                href="http://codingmentorkit.com/"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Website</a
+              >
+            </div>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/thanhvu0895">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/thanhvu0895">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/thanh310895/">
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="./assets/png/insta-ico.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Tyler Vu</h4>
+            <p class="main-footer__short-desc">
+              Copyright © 2023 Tyler Vu. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Include Modal -->
+	<script>
+		document.addEventListener("DOMContentLoaded", function(event) {
+			var include = document.createElement('script');
+			include.src = "modal.js";
+			document.getElementsByTagName('head')[0].appendChild(include);
+		});
+
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', 'modal.html', true);
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+            var modalDiv = document.createElement('div');
+            modalDiv.innerHTML = xhr.responseText;
+            document.body.appendChild(modalDiv);
+        }
+    };
+    xhr.send();
+	</script>
+    <script src="./index.js"></script>
+     <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+  </body>
+</html>

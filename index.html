@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio</title>
+    <meta name="description" content="Portfolio Template for Developer" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/png/thanh-vu.png"
+              alt="Thanh Vu Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Tyler Vu</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="https://drive.google.com/uc?export=download&id=1ROsyxKWzPWlicu-F_8RANTpUelSKKM8C" class="header__link"> Download CV </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+           
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="https://drive.google.com/uc?export=download&id=1HYFOA_XIWdSagezWiSQrrIH9GCM5Hbi9"> Download CV </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <div class="home-hero__info">
+          <p class="text-primary">
+            I graduated from Kalamazoo College, having worked in <strong>Software Developement</strong> and <strong>Technical Support</strong> industry.
+          </p>
+        </div>
+        <div class="home-hero__cta" style="text-align: center;">
+          <a href="./#projects" class="btn btn--bg" style="position: relative; display: inline-block;">
+            Projects
+            <span style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; border: 2px solid #f2d600; z-index: -1; animation: pulse 1.5s infinite;"></span>
+          </a>
+        </div>
+        
+        <style>
+          @keyframes pulse {
+            0% {
+              transform: scale(1);
+              opacity: 1;
+            }
+        
+            100% {
+              transform: scale(1.5);
+              opacity: 0;
+            }
+          }
+        </style>
+        
+      </div>
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a href="https://www.linkedin.com/in/thanhvu0895/" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/linkedin-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://github.com/thanhvu0895" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/github-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a
+            href="https://www.instagram.com/thanh310895/"
+            class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
+          >
+            <img
+              src="./assets/png/insta-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+          <span class="heading-sec__sub">
+            I am a big fan of Backend Development and Database Management.
+          </span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">Get to know me!</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                Hey, it is <strong>Tyler</strong> and I am a <strong>Software Developer</strong> located in Kalamazoo.<br>
+                I have done <strong>remote</strong> projects for agencies, written <strong>APIs</strong> 
+                for Health Sector companies, and collaborated with talented individuals to create <strong>digital products</strong> for both business and consumer use.
+              </p>
+              <p class="about__content-details-para">
+                I am quite a tech-savy. 
+                Throughout the years, I have gained excellent proficiency in Git workflow, Relational Database Management Systems 
+                like MySQL and PostgreSQL, and web application deployment on all Operating Systems. 
+                Feel fere to <a href="./#contact"><strong>contact me</strong></a> here:
+              </p>
+            </div>
+            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr">
+              Contact
+            </a>
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">My Skills</h3>
+            <div class="skills">
+              <div class="skills">
+                <div class="skills__skill">HTML</div>
+                <div class="skills__skill">CSS</div>
+                <div class="skills__skill">JavaScript</div>
+                <div class="skills__skill">jQuery</div>
+                <div class="skills__skill">Vue.js</div>
+                <div class="skills__skill">React JS</div>
+                <div class="skills__skill">Java</div>
+                <div class="skills__skill">PHP</div>
+                <div class="skills__skill">Python</div>
+                <div class="skills__skill">Docker</div>
+                <div class="skills__skill">Git</div>
+                <div class="skills__skill">Spring Boot</div>
+                <div class="skills__skill">Hibernate</div>
+                <div class="skills__skill">MySQL</div>
+                <div class="skills__skill">MSSQL</div>
+                <div class="skills__skill">Oracle</div>
+                <div class="skills__skill">PostgreSQL</div>
+                <div class="skills__skill">AWS Certified Cloud Practitioner</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projects</span>
+          <span class="heading-sec__sub">
+            Throughout my academic and professional career, I have had the opportunity to work on a variety of exciting software projects. 
+            These projects range from developing a Learning Management System to creating an ecommerce webstore, 
+            to building a Node.js API for managing movie theaters. Below are some of my most noteworthy projects
+          </span>
+        </h2>
+
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/cmkit-mockup.jpeg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">CMKit</h3>
+              <p class="projects__row-content-desc">
+                A Learning Management System written in Pure Java, 
+                along with Java Server Pages and Servlet that makes it easy to submit, grade, and analyze assignments online, 
+                while securely storing digital class materials.
+              </p>
+              <a
+                href="/cmkit"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Showcase CMKit</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/kzookart-mockup.jpeg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">KKart Webstore</h3>
+              <p class="projects__row-content-desc">
+                Your go-to destination for online shopping in Kalamazoo, 
+                built in PHP! The website features a wide selection of high-quality products, 
+                from trendy fashion items to top-of-the-line electronics.
+              </p>
+              <a
+                href="/kkart"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Showcase KKart</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/filmapis-mockup.jpeg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Movie Theaters Management APIs</h3>
+              <p class="projects__row-content-desc">
+                A Node.js API for managing movie theaters, including functions for creating and updating movie showtimes,
+                 managing seats and reservations, and generating reports on theater occupancy and revenue.
+              </p>
+              <a
+                href="/filmapis"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Showcase Theater APIs</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+            Thank you for visiting my website! If you have any questions or would like to 
+            discuss potential projects, please don't hesitate to contact me through the contact form on my website. I would be more than happy to hear from you!
+          </span>
+        </h2>
+        <div class="contact__form-container">
+          <form name="contact" method="POST" data-netlify="true">
+            <div class="contact__form-field">
+                <label class="contact__form-label" for="name">Name</label>
+                <input
+                    required
+                    placeholder="Enter Your Name"
+                    type="text"
+                    class="contact__form-input"
+                    name="name"
+                    id="name"
+                />
+            </div>
+            <div class="contact__form-field">
+                <label class="contact__form-label" for="email">Email</label>
+                <input
+                    required
+                    placeholder="Enter Your Email"
+                    type="text"
+                    class="contact__form-input"
+                    name="email"
+                    id="email"
+                />
+            </div>
+            <div class="contact__form-field">
+                <label class="contact__form-label" for="message">Message</label>
+                <textarea
+                    required
+                    cols="30"
+                    rows="10"
+                    class="contact__form-input"
+                    placeholder="Enter Your Message"
+                    name="message"
+                    id="message"
+                ></textarea>
+            </div>
+            <button type="submit" class="btn btn--theme contact__btn">
+                Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/thanhvu0895">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/thanhvu0895">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/thanh310895/">
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="./assets/png/insta-ico.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Tyler Vu</h4>
+            <p class="main-footer__short-desc">
+              Copyright © 2023 Tyler Vu. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

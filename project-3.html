@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>FilmApis Showcase</title>
+    <meta name="description" content="Case study page of Project" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/png/thanh-vu.png"
+              alt="Thanh Vu Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Tyler Vu</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="project-cs-hero">
+      <div class="project-cs-hero__content">
+        <h1 class="heading-primary">Movie Theaters APIs</h1>
+        <div class="project-cs-hero__cta">
+          <a href="#" class="btn btn--bg" target="_blank">Link To Website</a>
+        </div>
+      </div>
+    </section>
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+          <div class="project-details__showcase-img-cont">
+            <img
+              src="./assets/jpeg/filmapis-mockup.jpeg"
+              alt="Project Image"
+              class="project-details__showcase-img"
+            />
+          </div>
+          <div>
+            <div class="my-section">
+              <p align="center" style="font-size: 24px;">
+                Movie Management Apis for film lovers, written in Node.js
+                <br>
+                <a href="http://filmapis.com:3030/api-docs/"><strong>Explore Movie Manament Apis »</strong></a>
+                <br>
+                <br>
+                <a href="https://github.com/thanhvu0895/NodeJS-MovieTheater-Management/issues/new" style="color: blue; text-decoration: none;"><strong>Report bug</strong></a>
+                ·
+                <a href="https://github.com/thanhvu0895/NodeJS-MovieTheater-Management/issues/new?assignees=&labels=feature+request&template=feature_request.md&title=" style="color: blue; text-decoration: none;"><strong>Request feature</strong></a>
+              </p>
+            </div>
+          </div>
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+
+              <div style="margin-top: 4em;">
+                <h3 style="font-size: 2.5em; margin-bottom: 0.5em;">
+                    What is filmapis?
+                    <span style="position: absolute; bottom: -5px; left: 0; height: 8px; width: 100%; border-bottom: 2px solid rgba(0, 0, 0, 0.3); opacity: 0.7;"></span>
+                </h3>
+              
+                <p style="font-size: 2em; margin-bottom: 2em;">
+                  This is back end API micro-services built on <strong>JavaScript</strong> and <strong>Node.JS</strong>'s modules including <strong>ExpressJS</strong> and <strong>Prisma</strong>. <br><br><strong>JWT library</strong> is also helping with encryption of user's password.
+                </p>
+              
+                <img src="https://media.npr.org/assets/img/2020/05/05/plazamarqueeduringclosure_custom-965476b67c1a760bdb3e16991ce8d65098605f62-s1100-c50.jpeg" style="max-width: 100%;">
+                
+                <h3 style="font-size: 2.5em; margin-bottom: 0.5em;">
+                  Usage:
+                </h3>
+
+                <p style="font-size: 2em; margin-bottom: 2em;">
+                  You can use my <a href="http://filmapis.com:3030/api-docs/">Swagger User Interface</a> for API testing:
+                </p>
+
+                <img src="https://user-images.githubusercontent.com/75138396/222896154-dd0fb6ba-a0cf-4b3d-a56d-e95847ed55f8.png" style="max-width: 100%;">
+
+                <p style="font-size: 2em; margin-bottom: 2em;">
+                  The service is live with a running <strong>MySQL Database Server</strong> (thanks to Docker and Digital Ocean's virtual machine). A sample link to get sample data is: <a href="http://178.128.154.4:3030/api/movies/getFilms">Get list of movie</a>
+                </p>
+
+                <p style="font-size: 2em; margin-bottom: 2em;">
+                  <img src="https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube" alt="Youtube">
+                  APIs usage demonstration with <strong>POSTMAN</strong>: 
+                  <a href="https://youtu.be/2mkc9OyU4-w">https://youtu.be/2mkc9OyU4-w</a>
+                </p>
+
+                <h3 style="font-size: 2.5em; margin-bottom: 0.5em;">List of API:</h3>
+
+<p style="font-size: 2em; margin-bottom: 2em;">
+1. USER MANGEMENT API
+</p>
+
+<p style="font-size: 2em; margin-bottom: 2em;">
+Signing Up: 
+</p>
+
+<img src="https://user-images.githubusercontent.com/75138396/222896543-6c34d4a1-d576-4c71-ad8c-7ce9023bd47a.png" style="max-width: 100%;">
+
+<p style="font-size: 2em; margin-bottom: 2em;">
+POST http://178.128.154.4:3030/api/users/signup
+Request Body:
+</p>
+
+<pre>
+{
+    "name": "testuser10", 
+    "email": "testadduser@gmail.com",
+    "phone": "0123456789",
+    "pass_word": "1234" ,
+    "role_id": 3
+}
+</pre>
+
+<p style="font-size: 2em; margin-bottom: 2em;">
+Result:
+</p>
+
+<img src="https://user-images.githubusercontent.com/75138396/222896564-2180ef52-ca87-4b79-8db0-30f9596c52b0.png" style="max-width: 100%;">
+
+<p style="font-size: 2em; margin-bottom: 2em;">
+If user is not exist in the database, a new user will be created with their password being encrypted in the database.
+</p>
+
+<p style="font-size: 2em; margin-bottom: 2em;">
+Signing in:
+</p>
+
+<img src="https://user-images.githubusercontent.com/75138396/222896582-98ee83ac-ada7-45e6-8e75-ef7ca490d169.png" style="max-width: 100%;">
+
+<p style="font-size: 2em; margin-bottom: 2em;">
+GET http://178.128.154.4:3030/api/users/signin
+Request body:
+</p>
+
+<pre>
+{
+    "email": "testadduser@gmail.com",
+    "passWord": "1234"
+}
+</pre>
+
+<p style="font-size: 2em; margin-bottom: 2em;">
+Result:
+</p>
+
+<img src="https://user-images.githubusercontent.com/75138396/222896593-aad46b22-c06a-4431-a6ff-519238592007.png" style="max-width: 100%;">
+
+<p style="font-size: 2em; margin-bottom: 2em;">
+If the user exist in database, you will sign in successfully. A new token will be generated for that user to perform activities like deleting, modifying the data.
+</p>
+
+<p style="font-size: 2em; margin-bottom: 2em;">
+2. Film Management
+</p>
+
+<p style="font-size: 2em; margin-bottom: 2em;">
+After signing in, you will be able to delete, update, or add more films of your choice. You can also view list of films divided by page number, and film related to theaters. You are also able to upload images as film's poster and save those images in the database
+</p>
+
+<p style="font-size: 2em; margin-bottom: 2em;">
+3. Ticket Management
+</p>
+
+<p style="font-size: 2em; margin-bottom: 2em;">
+Users can generate film tickets for customers, or create a showtime for the theater.
+</p>
+
+<p style="font-size: 2em; margin-bottom: 2em;">
+4. Theater Management
+</p>
+
+<p style="font-size: 2em; margin-bottom: 2em;">
+Users can add theaters and their banner through the database. Those information will be saved to the database
+
+<h3 style="font-size: 2.5em; margin-bottom: 0.5em;">
+Idea for this project:  
+</h3>
+<p style="font-size: 2em; margin-bottom: 2em;">
+- Create a "login with Facebook" function  
+</p>
+
+                
+            </div>
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Tools Used</h3>
+              <div class="skills">
+                <div class="skills__skill">HTML</div>
+                <div class="skills__skill">CSS</div>
+                <div class="skills__skill">JavaScript</div>
+                <div class="skills__skill">Nodejs</div>
+                <div class="skills__skill">ExpressJS</div>
+                <div class="skills__skill">MySQL</div>
+                <div class="skills__skill">Sequelize</div>
+                <div class="skills__skill">Prisma</div>
+                <div class="skills__skill">Docker</div>
+                <div class="skills__skill">VPS</div>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <h3 class="project-details__content-title">See Live</h3>
+              <a
+                href="#"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                href="#"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/thanhvu0895">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/thanhvu0895">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/thanh310895/">
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="./assets/png/insta-ico.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Tyler Vu</h4>
+            <p class="main-footer__short-desc">
+              Copyright © 2023 Tyler Vu. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
